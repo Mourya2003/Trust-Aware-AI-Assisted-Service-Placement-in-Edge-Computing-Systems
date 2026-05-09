@@ -14,10 +14,10 @@ class PlacementController:
         self.trust_threshold = 60.0
 
         # Placement weights
-        self.w1 = 0.4   # Trust
-        self.w2 = 0.3   # Reliability
-        self.w3 = 0.2   # Resources
-        self.w4 = 0.1   # AI prediction
+        self.w1 = 0.30   # Trust
+        self.w2 = 0.20   # Reliability
+        self.w3 = 0.15   # Resources
+        self.w4 = 0.35   # AI prediction
 
         # AI predictor
         self.predictor = ReliabilityPredictor()
